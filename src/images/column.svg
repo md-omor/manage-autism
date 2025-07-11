@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94" height="94" viewBox="0 0 94 94">
+  <g id="column" transform="translate(-213.5 -33.213)">
+    <g id="playbutton" transform="translate(213.5 33.211)">
+      <g id="base" transform="translate(0 0.002)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="5">
+        <rect width="94" height="94" rx="47" stroke="none"/>
+        <rect x="2.5" y="2.5" width="89" height="89" rx="44.5" fill="none"/>
+      </g>
+      <path id="icon" d="M0,0V25.987L20.79,12.994Z" transform="translate(40.435 33.873)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

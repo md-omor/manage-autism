@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50.311" height="34" viewBox="0 0 50.311 34">
+  <g id="Group_162402" data-name="Group 162402" transform="translate(-1665.689 -63)">
+    <g id="mail" transform="translate(1667 74)">
+      <path id="Path_83196" data-name="Path 83196" d="M5.3,4H31.656a3.069,3.069,0,0,1,3.3,2.75v16.5a3.069,3.069,0,0,1-3.3,2.75H5.3A3.069,3.069,0,0,1,2,23.25V6.75A3.069,3.069,0,0,1,5.3,4Z" transform="translate(-2 -4)" fill="none" stroke="#2699fb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_83197" data-name="Path 83197" d="M34.951,6,18.476,13,2,6" transform="translate(-2 -4)" fill="none" stroke="#2699fb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g id="message-circle" transform="translate(1695 64)">
+      <path id="message-circle-2" data-name="message-circle" d="M23,12.444a9.311,9.311,0,0,1-1,4.222,9.444,9.444,0,0,1-8.444,5.222,9.311,9.311,0,0,1-4.222-1L3,23l2.111-6.333a9.311,9.311,0,0,1-1-4.222A9.444,9.444,0,0,1,9.333,4a9.311,9.311,0,0,1,4.222-1h.556A9.422,9.422,0,0,1,23,11.889Z" transform="translate(-3 -3)" fill="#fb4d4d" stroke="#fb4d4d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

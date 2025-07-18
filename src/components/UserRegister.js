@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import bgImg from "../images/caleb-woods-ecRuhwPIW7c-unsplash.svg";
-import RightImg from "../images/MaskGroup1.svg";
-import playBtn from "../images/playbutton.svg";
 import LandinPageFooter from "./Footers/LandinPageFooter";
 import Navbar from "./Navbars/Navbar";
 
@@ -39,11 +37,16 @@ const UserRegister = () => {
               </div>
 
               <div className="userRegisterRight">
-                <div className="rightImg">
-                  <img src={RightImg} alt="RightImg" />
-                </div>
-                <div className="playBtn">
-                  <img src={playBtn} alt="playBtn" />
+                <div className="videoContainer">
+                  <iframe
+                    width="764"
+                    height="346"
+                    src="https://www.youtube.com/embed/FGTcXAgzxWw"
+                    title="Signs of Autism in Children"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
                 </div>
               </div>
             </div>
@@ -61,14 +64,14 @@ const Wrapper = styled.div`
     background-image: url(${bgImg});
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     padding-bottom: 50px;
 
     .userContainer {
       width: 1270px;
       margin: 0 auto;
-      height: 100%;
+      height: 90%;
       .userRegisterWrap {
         display: flex;
         justify-content: space-between;
@@ -98,22 +101,10 @@ const Wrapper = styled.div`
 
   .userRegisterRight {
     position: relative;
-    .rightImg {
-      width: 764px;
-      height: 346px;
-      img {
-        width: 100%;
-        height: 100%;
-      }
-    }
-    .playBtn {
-      position: absolute;
-      top: 38%;
-      left: 45%;
-      width: 96px;
-      height: 96px;
-      cursor: pointer;
-      img {
+    .videoContainer {
+      width: 700px;
+      height: 400px;
+      iframe {
         width: 100%;
         height: 100%;
       }

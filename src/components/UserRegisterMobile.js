@@ -1,9 +1,6 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import logo from "../images/Manage-Autism-Logo.svg";
-import VideoImg from "../images/mobileImages/caleb-woods-ecRuhwPIW7c-unsplash.svg";
-import playBtn from "../images/mobileImages/playbutton.svg";
 import LandingFooterMob from "./Footers/LandingFooterMob";
 import Hero from "./Hero";
 
@@ -23,11 +20,16 @@ const UserRegisterMobile = () => {
         <Hero />
       </div>
       <div className="videoImgWrap">
-        <div className="videoImg">
-          <img src={VideoImg} alt="VideoImg" />
-        </div>
-        <div className="playBtn">
-          <img src={playBtn} alt="playBtn" />
+        <div className="videoContainer">
+          <iframe
+            width="100%"
+            height="340"
+            src="https://www.youtube.com/embed/FGTcXAgzxWw"
+            title="Signs of Autism in Children"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
         </div>
       </div>
       <div className="subscribeSec">
@@ -64,29 +66,18 @@ const Wrapper = styled.div`
   .videoImgWrap {
     position: relative;
     width: 100%;
+    height: 280px;
     overflow: hidden !important;
     margin-top: 20px;
-    .videoImg {
+    padding-left: 10px;
+    padding-right: 10px;
+    .videoContainer {
       width: 100%;
       height: 100%;
-      img {
+      iframe {
         width: 100%;
         height: 100%;
         object-fit: cover;
-      }
-    }
-    .playBtn {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      img {
-        width: 94px;
-        height: 94px;
       }
     }
   }

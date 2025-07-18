@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import bgImg from "../images/caleb-woods-ecRuhwPIW7c-unsplash.svg";
@@ -18,10 +17,15 @@ const UserRegister = () => {
             <div className="userRegisterWrap">
               <div className="userRegisterLeft">
                 <p>
-                  We help <span>manage</span> and <span>monitor</span> your{" "}
+                  {/* We help <span>manage</span> and <span>monitor</span> your{" "}
                   <span>child's healthcare </span> aiding{" "}
                   <span>industry professionals </span> for the{" "}
-                  <span> best outcome</span>
+                  <span> best outcome</span> */}
+                  Log, track your child's <span>daily chart</span>, manage
+                  symptoms, share get <span>feedback</span> from experts and
+                  forums, save
+                  <span> time and money</span> on referrals, access to
+                  information and links
                 </p>
 
                 <div className="registerBtnWrap">
@@ -79,14 +83,14 @@ const Wrapper = styled.div`
       text-align: left;
       letter-spacing: 0px;
       opacity: 1;
-      font: normal normal normal 40px/44px Arial;
+      font: 30px/46px Rubik;
       letter-spacing: 0px;
       color: #4f4f4f;
-      width: 429px;
+      ${"" /* width: 429px; */}
       margin-right: 77px;
     }
     span {
-      font: normal normal bold 40px/44px Arial;
+      font: normal normal bold 29px/40px Rubik;
       letter-spacing: 0px;
       color: #000000;
     }

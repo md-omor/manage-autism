@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import MainProfile from "../components/MainProfile/MainProfile";
 import MainProfileMob from "../components/MainProfile/MainProfileMob";

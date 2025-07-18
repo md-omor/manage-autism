@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import bell from "../../images/bell.svg";
@@ -12,7 +11,7 @@ const ProfileNavbar = () => {
       <div className="navWrapper">
         <div className="nav_wrap">
           <div className="logo">
-            <Link to="/profile">
+            <Link to="/">
               <img src={logo} alt="logo" />
             </Link>
           </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -7,10 +6,14 @@ const Hero = () => {
     <Wrapper>
       <div className="userRegHeroWrap">
         <div className="p">
-          We help <b>manage</b> and <b>monitor</b> your
+          {/* We help <b>manage</b> and <b>monitor</b> your
           <b> child's healthcare </b> aiding
           <b> industry professionals </b> for the
-          <b> best outcome</b>
+          <b> best outcome</b> */}
+          Log, track your child's <b> daily chart</b>, manage symptoms, share
+          get
+          <b> feedback</b> from experts and forums, save <b> time and money</b>{" "}
+          on referrals, access to information and links
         </div>
 
         <div className="userRegBtnWrap">
@@ -97,17 +100,17 @@ const Wrapper = styled.div`
     .userRegHeroWrap {
       margin-top: 40px;
       .p {
-        width: 330px;
+        ${"" /* width: 330px9 */}
         opacity: 1;
         letter-spacing: 0px;
         text-align: left;
-        font: normal normal normal 38px/44px Arial;
+        font: normal normal normal 29px/40px Rubik;
         color: #4f4f4f;
       }
       b {
         letter-spacing: 0px;
         text-align: left;
-        font: normal normal bold 38px/44px Arial;
+        font: normal normal bold 27px/40px Rubik;
         color: #000000;
       }
     }

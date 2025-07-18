@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Footer from "../components/Footers/Footer";
@@ -24,7 +23,7 @@ const EmailConfirm = () => {
               Before we get started, please take a second to make sure we’ve got
               your email right.
             </p>
-            <Link to="/">
+            <Link to="/profile">
               <button>Confirm Email</button>
             </Link>
           </div>
